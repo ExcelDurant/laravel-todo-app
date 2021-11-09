@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow:  2px 2px 10px 2px rgb(165, 164, 164);
+    margin-bottom: 20px;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+
+}
+.navlink {
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px 8px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.form-container {
+    width: 60%;
+    min-width: 600px;
+    margin: 40px auto;
+}
+
+.todo-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.in {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.submit-btn {
+    width: 200px;
+    padding: 5px 0;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+}
+
+.todos-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todo-container {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.dateline {
+    margin-bottom: 15px;
+}
+
+.complete {
+    background-color: rgb(69, 69, 243);
+    color: antiquewhite;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.action {
+    background-color: rgb(100, 236, 59);
+    color: white;
+}
+
+.delete {
+    background-color: red;
+}
+
+.prod-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
